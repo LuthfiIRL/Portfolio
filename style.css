@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
+    background-color: rgb(234, 235, 253);
     margin: 0;
     padding: 0;
 }
@@ -94,7 +95,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: white;
+    background-color: rgb(234, 235, 253);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -142,3 +143,6 @@ a:hover {
 .hamburger-icon span:first-child {
     transform: none;
 }
+
+/* SECTIONS */
+
