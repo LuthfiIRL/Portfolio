@@ -52,7 +52,7 @@ a {
 a:hover {
     color: rgb(105, 96, 96);
     text-decoration: underline;
-    text-underline-offset: 0.8rem;
+    text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -265,6 +265,7 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -359,9 +360,8 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+    width: 90%;
+    height: 90%;    
 }
 
 .project-title {
@@ -378,7 +378,7 @@ article .icon {
 
 #contact {
     display: flex;
-    justify-content: center0;
+    justify-content: center;
     flex-direction: column;
     height: 70vh;
 }
